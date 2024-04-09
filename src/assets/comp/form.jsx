@@ -23,7 +23,7 @@ function form({handleSubmit, projectData}){
         })
         .catch((err) => console.log(err))  */
 
-        axios.get('http://localhost:5000/categories')
+        axios.get('https://json-server-lilac-eta.vercel.app/categories')
         .then(function (response) {
             setCategories(response.data);
         })
