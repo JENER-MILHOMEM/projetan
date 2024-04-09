@@ -17,7 +17,7 @@ function projetoNovo(){
     }
     useEffect(()=>{
         setTimeout(() => {
-            fetch('http://localhost:5000/projects',{
+            fetch('https://json-server-lilac-eta.vercel.app/projects',{
         method: 'GET',
         headers: {
             'Content-type': 'application/json'
@@ -34,7 +34,7 @@ function projetoNovo(){
 
     function removeproject(id){
         
-        fetch(`http://localhost:5000/projects/${id}`,{
+        fetch(`https://json-server-lilac-eta.vercel.app/projects/${id}`,{
             method: 'DELETE',
             headers: {
                 'Content-type': 'application/json'
