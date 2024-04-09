@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id": "2b16",
+      "category": {
+        "id": "4",
+        "name": "Planejamentos"
+      },
+      "name": "teste",
+      "orçamento": "1500",
+      "projetan": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Desing"
+    },
+    {
+      "id": "4",
+      "name": "Planejamentos"
+    }
+  ]
+}
