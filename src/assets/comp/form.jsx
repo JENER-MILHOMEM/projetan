@@ -56,7 +56,7 @@ function form({handleSubmit, projectData}){
                 <Input handleOnChange={handleChange} type="text" text="nome do projeto" name="name" placeholder="Insira o nome do projeto" value={project.name ? project.name: ""}/>
                 <Input handleOnChange={handleChange} type="number" text="Orçamento do projeto" name="orçamento" placeholder="Insira o orçamento do projeto " value={project.orçamento ? project.orçamento: ""}/>
                 <Select name="category_id" text="Selecione uma categoria" options={categories} handleOnChange={handleSelect} />
-                <Button type="submit" value="criar projeto"/>
+                <Link to='/projeto'><Button type="submit" value="criar projeto"/></Link>
             </form>
         </>
     )
