@@ -9,7 +9,7 @@ function newProject(){
         project.projetan = 0
         project.services = []
 
-        fetch('http://localhost:5000/projects', {
+        fetch('https://json-server-lilac-eta.vercel.app/projects', {
             method: 'POST',
             headers:{
                 'Content-type': 'application/json'
